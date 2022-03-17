@@ -148,7 +148,7 @@ img {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1600px;
   width: 100%;
   margin: 0 auto;
   padding: 0 1rem;
@@ -176,6 +176,10 @@ header {
   margin-left: 2rem;
 }
 
+.card:hover {
+  outline: 5px solid #377e80;
+}
+
 .list {
   display: flex;
   justify-content: flex-start;
@@ -197,7 +201,6 @@ p {
   color: #333;
   font-size: 0.9rem;
 }
-
 .btn {
   background-color: #377e80;
   color: #fff;
@@ -206,6 +209,8 @@ p {
   border-radius: 5px;
   margin-top: 1rem;
   cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
 }
 .btn:hover {
   background: #42989b;

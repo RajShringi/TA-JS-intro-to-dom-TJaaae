@@ -126,9 +126,10 @@ books.forEach((book) => {
   name.innerText = book.title;
   let author = document.createElement("p");
   author.innerText = book.author;
-  let button = document.createElement("button");
+  let button = document.createElement("a");
   button.setAttribute("class", "btn");
   button.innerText = "Buy Now";
+  button.href = book.website;
   card.append(img, name, author, button);
   li.append(card);
   ul.append(li);
